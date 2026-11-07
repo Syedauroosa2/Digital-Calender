@@ -1,0 +1,64 @@
+body{
+     font-family: 'Segoe UI', sans-serif;
+     background: linear-gradient(135deg, #3a9eaf 0%, #74ccbd 100%);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+      min-height: 100vh;
+}
+
+.container{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 20px;
+     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+     text-align: center;
+     width: 260px;
+}
+
+.click-box h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.click-box p{
+    opacity: 0.8;
+    font-size: 1rem;
+}
+
+.calendar{
+    margin-top: 6px;
+     background: rgba(255, 255, 255, 0.2);
+     border-radius: 15px;
+    padding: 10px;
+    
+}
+
+.days-of-weeks{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    color: rgb(28, 114, 114);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.calendar-days div{
+    
+    padding: 2px;
+    font-size: 0.8rem;
+}
+
+.calendar-days{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    margin-top: 15px;
+}
+
+.today{
+     background: #ff4757;
+    border-radius: 50%;
+    font-weight: bold;
+}
